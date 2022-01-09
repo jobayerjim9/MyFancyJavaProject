@@ -9,7 +9,7 @@ public class Main {
 	// write your code here
         RandmizeNumber randmizeNumber= new RandmizeNumber();
         randmizeNumber.randomize();
-        randmizeNumber.isLucky(30);
-
+        int lucky=randmizeNumber.isLucky(30);
+        System.out.println("You are luck for "+lucky+" times");
     }
 }
