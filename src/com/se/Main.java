@@ -10,6 +10,7 @@ public class Main {
         RandmizeNumber randmizeNumber= new RandmizeNumber();
         randmizeNumber.randomize();
         randmizeNumber.isLucky(30);
+        System.out.println("Y change");
 
     }
 }
