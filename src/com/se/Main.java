@@ -10,6 +10,12 @@ public class Main {
         RandmizeNumber randmizeNumber= new RandmizeNumber();
         randmizeNumber.randomize();
         int lucky=randmizeNumber.isLucky(30);
-        System.out.println("You are luck for "+lucky+" times");
+
+        if (lucky>0) {
+            System.out.println("You was lucky "+lucky+" times");
+        }
+
+
+
     }
 }
